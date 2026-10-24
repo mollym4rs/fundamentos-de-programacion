@@ -1,12 +1,19 @@
-# Fundamentos de programacion 
+# Fundamentos de programacion.- Taquilla del museo
 
-Este archivo va a contener la descripción de la estructura de la materia de fundamendamentos de programación.
+Esta actividad consiste en desarrollar un programa en Python para registrar visitantes y calcular el costo de sus entradas al museo según su edad y tipo de visitante.
 
-Los archivos hasta el momento son:
+Las funciones principales del programa son:
 
-1. Actividad 1.
-2. Ejercicios extra evaluables.
-3. Agregue Parte E Division Sintetica en PDF
-4. Agregué mi nombre al README
-5. Agregué las operaciones matemáticas a la prueba de escritorio: 2 + 1 + 1 + 2 + 5 = 11 y (11 / 24) × 100 = 45.83 %
-6. Completé el Paso 3 del notebook con todas las líneas input, print y el cálculo del porcentaje
+1.-Inicialicé los contadores para registrar visitantes, descuentos y total a pagar.
+
+2.-Definí los precios de entrada según la edad del visitante.
+
+3.-Validé que la edad fuera un número entero entre 1 y 110.
+
+4.-Apliqué descuentos del 12% a adultos mayores y del 10% a estudiantes y profesores, según las condiciones del programa.
+
+5.-Calculé el precio final de cada entrada y mostré el recibo del visitante.
+
+6.-Actualicé los totales de visitantes cobrados, descuentos y pagos.
+
+7.-Implementé la opción fin para cerrar la taquilla y mostrar el corte de caja.
